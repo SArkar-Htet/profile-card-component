@@ -20,6 +20,10 @@ body {
   background-color: $darkCyan;
   height: 100vh;
 
+  @include breakpoint-up(medium) {
+    background-position: right 48vw bottom 52vh, left 48vw top 52vh;
+  }
+
   h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
