@@ -1,0 +1,61 @@
+.card {
+  width: 90%;
+  background-color: #fff;
+  color: $darkGrayishBlue;
+  border-radius: 1rem;
+  overflow: hidden;
+  &__header {
+    height: 140px;
+    background-image: url("../../images/bg-pattern-card.svg");
+  }
+
+  &__user-info {
+    position: relative;
+    text-align: center;
+    padding: 70px 0 25px 0;
+  }
+
+  &__user-avatar {
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid #fff;
+    border-radius: 50%;
+  }
+
+  &__user-age {
+    font-weight: $font-normal;
+    color: $darkGrayishBlue;
+  }
+
+  &__user-addr {
+    font-size: $font-md;
+    font-weight: $font-normal;
+    margin-top: 0.75rem;
+  }
+
+  &__stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-top: 1px solid hsla(0, 0%, 59%, 0.3);
+  }
+
+  .stats {
+    text-align: center;
+    &:not(:last-child) {
+      padding-right: 35px;
+    }
+
+    span {
+      display: block;
+    }
+
+    &__number {
+      padding-bottom: 10px;
+    }
+
+  }
+}

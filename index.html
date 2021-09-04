@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- Style Sheet -->
-  <link rel="stylesheet" href="/dist/css/style.min.css">
+  <link rel="stylesheet" href="./dist/css/style.min.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -23,21 +23,41 @@
   </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
+  <main>
+    <section class="card">
+      <div class="card__header"></div>
 
-  803K
-  Likes
+      <div class="card__user-info">
+        <img src="./images/image-victor.jpg" alt="Victor's profile avatar" class="card__user-avatar">
+        <h1 class="card__user-name font-bold">Victor Crest <span class="card__user-age">26</span></h1>
+        <h2 class="card__user-addr">London</h2>
+      </div>
 
-  1.4K
-  Photos
+      <div class="card__stats">
+
+        <div class="stats">
+          <span class="stats__number font-bold">80K</span>
+          <span class="stats__label">Followers</span>
+        </div>
+
+        <div class="stats">
+          <span class="stats__number font-bold">803K</span>
+          <span class="stats__label">Likes</span>
+        </div>
+
+        <div class="stats">
+          <span class="stats__number font-bold">1.4K</span>
+          <span class="stats__label">Photos</span>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <!-- 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>

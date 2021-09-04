@@ -7,8 +7,10 @@ $darkGrayishBlue: hsl(227, 10%, 46%);
 $darkGray: hsl(0, 0%, 59%);
 
 // Font Size
-$font-md: 1.125rem;
+$font-sm: 0.875rem; //14px
+$font-md: 1rem; //16px
+$font-lg: 1.125rem; //18px
 
 // Font Weight
-$fontRegular: 400;
-$fontBold: 700;
+$font-normal: 400;
+$font-bold: 700;
